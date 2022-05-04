@@ -6,11 +6,11 @@ import introImg from "../assets/images/front-end-development-blurb.svg";
 const Intro = () => {
     return (
         <div className="min-h-screen bg-white dark:bg-black">
-            <div className="absolute dark:hidden w-6/12 h-screen bg-blue-100 rounded-full z-[1] opacity-90 right-20" />
+            <div className="absolute dark:hidden md:w-6/12 md:h-screen bg-blue-100 rounded-full z-[1] opacity-90 right-20" />
             <div className="container max-w-6xl px-4 pt-40 pb-8 mx-auto">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div className="z-10 flex flex-col justify-center order-2 align-center md:order-1">
-                        <h1 className="text-5xl font-semibold mb-7 dark:text-white">
+                        <h1 className="text-4xl font-semibold md:text-5xl mb-7 dark:text-white">
                             Best{" "}
                             <span className="font-bold text-blue-700 dark:text-blue-500">
                                 <TypeAnimation
@@ -41,7 +41,7 @@ const Intro = () => {
                             Start Learning
                         </button>
                     </div>
-                    <div className="z-10 order-1 md:order-2">
+                    <div className="z-10 order-1 mb-12 md:mb-0 md:order-2">
                         <img
                             src={introImg}
                             alt="IntroImg"

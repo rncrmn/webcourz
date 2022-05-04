@@ -3,7 +3,7 @@ import React from "react";
 const Feature = ({ feature: { icon, title, description } }) => {
     return (
         <div className="gap-4 mb-10 md:flex">
-            <div>{icon}</div>
+            <div className="mb-6 md:mb-0">{icon}</div>
             <div>
                 <h3 className="mb-6 text-4xl font-bold dark:text-white">
                     {title}

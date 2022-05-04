@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div className="py-10 dark:bg-black">
             <div className="container px-4 py-6 mx-auto max-w-7xl">
-                <div className="grid grid-cols-2 gap-10">
+                <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
                     <div>
                         <img
                             src="./images/contact-banner.jpg"

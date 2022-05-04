@@ -9,15 +9,16 @@ const Career = () => {
     return (
         <div className="py-12 bg-gray-100 dark:bg-gray-900">
             <div className="container max-w-5xl px-4 py-8 mx-auto">
-                <h2 className="mb-20 text-2xl font-semibold text-center dark:text-white">
+                <h2 className="mb-10 text-2xl font-semibold text-center md:mb-20 dark:text-white">
                     Graduates starting their career at
                 </h2>
-                <div className="flex-wrap justify-between gap-6 md:flex align-center">
+                <div className="flex flex-col justify-center gap-20 md:gap-6 align-center md:flex-row md:justify-between">
                     <img
                         src={AirbnbLogo}
                         alt="airbnb"
                         width="150"
                         height="100"
+                        className="self-center"
                     />
 
                     <img
@@ -25,6 +26,7 @@ const Career = () => {
                         alt="airbnb"
                         width="100"
                         height="100"
+                        className="self-center"
                     />
 
                     <img
@@ -32,6 +34,7 @@ const Career = () => {
                         alt="airbnb"
                         width="150"
                         height="200"
+                        className="self-center"
                     />
 
                     <img
@@ -39,6 +42,7 @@ const Career = () => {
                         alt="airbnb"
                         width="100"
                         height="200"
+                        className="self-center"
                     />
 
                     <img
@@ -46,6 +50,7 @@ const Career = () => {
                         alt="airbnb"
                         width="150"
                         height="200"
+                        className="self-center"
                     />
                 </div>
             </div>

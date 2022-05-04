@@ -40,13 +40,13 @@ const Features = () => {
             <div className="dark:hidden absolute h-96 w-96 bg-blue-100 rounded-full z-[1] opacity-90 left-10" />
             <div className="dark:hidden absolute h-96 w-96 bg-blue-200 rounded-full z-[1] opacity-90 left-16 top-20" />
             <div className="container max-w-5xl px-8 py-6 mx-auto">
-                <div className="grid gap-12 md:grid-cols-3">
+                <div className="grid grid-cols-1 md:gap-10 md:grid-cols-3">
                     <div className="z-10 order-1 pt-10">
-                        <h2 className="font-semibold text-right text-7xl dark:text-white">
+                        <h2 className="text-5xl font-semibold text-right md:text-7xl dark:text-white">
                             Why Choose Us?
                         </h2>
                     </div>
-                    <div className="z-10 order-2 col-span-2 pt-10 md:pl-6 md:border-l">
+                    <div className="z-10 order-2 col-span-2 pt-10 md:pl-10 md:border-l">
                         {featureLists.map((feature, index) => (
                             <Feature
                                 feature={feature}
