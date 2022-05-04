@@ -1,0 +1,9 @@
+export { default as Header } from "./Header";
+export { default as Intro } from "./Intro";
+export { default as Career } from "./Career";
+export { default as Features } from "./Features";
+export { default as Courses } from "./Courses";
+export { default as Testimonials } from "./Testimonials";
+export { default as Faqs } from "./Faqs";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
