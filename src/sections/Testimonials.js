@@ -34,7 +34,7 @@ const testimonialLists = [
 
 const Testimonials = () => {
     return (
-        <div className="py-10 dark:bg-black">
+        <div className="py-10 dark:bg-black" id="testimonial">
             <div className="container px-4 py-6 mx-auto max-w-7xl">
                 <h2 className="mb-16 text-4xl font-semibold text-center dark:text-white">
                     What Our Students Say

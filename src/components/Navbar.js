@@ -1,15 +1,35 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { SunIcon, MoonIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
     const menuLists = [
         "home",
         "features",
-        "Courses",
+        "courses",
         "testimonial",
         "faqs",
         "contact",
     ];
+
+    // const menuLists = [
+    //     {
+    //         text: "home",
+    //         to: "/",
+    //     },
+    //     {
+    //         text: "features",
+    //         to: "features",
+    //     },
+    //     {
+    //         text: "courses",
+    //         to: "features",
+    //     },
+    //     {
+    //         text: "tesim",
+    //         to: "features",
+    //     }
+    // ];
 
     const [open, setOpen] = useState(false);
 
@@ -26,12 +46,16 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 >
                     {menuLists.map((item, index) => (
                         <li key={item + index}>
-                            <a
-                                href="/#"
+                            <Link
+                                to={item}
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500}
                                 className="block px-5 py-2 font-semibold capitalize text-md dark:text-white"
                             >
                                 {item}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                     <li>

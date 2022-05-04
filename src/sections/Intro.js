@@ -5,7 +5,7 @@ import introImg from "../assets/images/front-end-development-blurb.svg";
 
 const Intro = () => {
     return (
-        <div className="min-h-screen bg-white dark:bg-black">
+        <div className="min-h-screen bg-white dark:bg-black" id="home">
             <div className="absolute dark:hidden md:w-6/12 md:h-screen bg-blue-100 rounded-full z-[1] opacity-90 right-20" />
             <div className="container max-w-6xl px-4 pt-40 pb-8 mx-auto">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">

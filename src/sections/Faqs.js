@@ -22,7 +22,7 @@ const Faqs = () => {
     ];
 
     return (
-        <div className="py-10 dark:bg-black">
+        <div className="py-10 dark:bg-black" id="faqs">
             <div className="container max-w-5xl px-4 py-6 mx-auto">
                 <h2 className="mb-16 text-4xl font-semibold dark:text-white">
                     Q&amp;A

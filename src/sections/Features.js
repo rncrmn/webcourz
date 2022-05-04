@@ -36,7 +36,10 @@ const featureLists = [
 
 const Features = () => {
     return (
-        <div className="relative py-12 overflow-hidden bg-white dark:bg-black">
+        <div
+            className="relative py-12 overflow-hidden bg-white dark:bg-black"
+            id="features"
+        >
             <div className="dark:hidden absolute h-96 w-96 bg-blue-100 rounded-full z-[1] opacity-90 left-10" />
             <div className="dark:hidden absolute h-96 w-96 bg-blue-200 rounded-full z-[1] opacity-90 left-16 top-20" />
             <div className="container max-w-5xl px-8 py-6 mx-auto">
